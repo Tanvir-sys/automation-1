@@ -1,16 +1,18 @@
 package AutomationTesting_1.auttomation_1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class FirstTest  extends BaseDriver{
 	@Test    //annotation for Run
+	@BeforeTest
 	public void test1() throws InterruptedException {
 		
 		
 		
-		driver.get("http://192.168.5.26:8080/ords/f?p=104:2183::::::");   // for execute hit the url
+		driver.get("https://github.com/Tanvir-sys/automation-1/tree/main");   // for execute hit the url
 		Thread.sleep(10000);
 	}
 
