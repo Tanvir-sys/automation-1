@@ -27,7 +27,7 @@ public class BaseDriver {
 			WebDriverManager.chromedriver().setup(); //chrome driver setup here
 			driver=new ChromeDriver();
 		}
-		else  {
+		else if (browser.contains("Edge")) {
 			WebDriverManager.edgedriver().setup();   //edge driver setup here
 			driver=new EdgeDriver();
 			
