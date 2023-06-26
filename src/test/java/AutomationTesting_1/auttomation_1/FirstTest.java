@@ -11,7 +11,7 @@ public class FirstTest  extends BaseDriver{
 		
 		
 		driver.get("http://192.168.5.26:8080/ords/f?p=104:2183::::::");   // for execute hit the url
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 	}
 
 }
