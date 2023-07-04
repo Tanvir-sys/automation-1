@@ -12,9 +12,14 @@ public class LocatorExample extends BaseDriver {
 		driver.get("https://www.shohoz.com/contact-us");
 		Thread.sleep(5000);
 		
-		WebElement e=driver.findElement(By.id("purpose"));
+//		WebElement e=driver.findElement(By.id("purpose")); // by id
+//		e.click();
+//		Thread.sleep(5000);
+		
+		WebElement e=driver.findElement(By.name("purpose"));
 		e.click();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
+		
 	}
 
 }
