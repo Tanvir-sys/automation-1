@@ -18,6 +18,9 @@ public class LocatorExample extends BaseDriver {
 		
 		WebElement e=driver.findElement(By.name("purpose"));
 		e.click();
+		Thread.sleep(3000);
+		WebElement s= driver.findElement(By.linkText("Launch"));
+		s.click();
 		Thread.sleep(10000);
 		
 	}
