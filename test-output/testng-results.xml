@@ -2,28 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-04T10:57:19 BDT" name="Default suite" finished-at="2023-07-04T10:57:45 BDT" duration-ms="26157">
+  <suite started-at="2023-07-04T21:18:02 BDT" name="Default suite" finished-at="2023-07-04T21:18:16 BDT" duration-ms="14862">
     <groups>
     </groups>
-    <test started-at="2023-07-04T10:57:19 BDT" name="Default test" finished-at="2023-07-04T10:57:45 BDT" duration-ms="26157">
-      <class name="AutomationTesting_1.auttomation_1.FirstTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.FirstTest@33065d67]" started-at="2023-07-04T10:56:58 BDT" name="start" finished-at="2023-07-04T10:57:19 BDT" duration-ms="20753" status="PASS">
+    <test started-at="2023-07-04T21:18:02 BDT" name="Default test" finished-at="2023-07-04T21:18:16 BDT" duration-ms="14862">
+      <class name="AutomationTesting_1.auttomation_1.LocatorExample">
+        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-04T21:17:44 BDT" name="start" finished-at="2023-07-04T21:18:02 BDT" duration-ms="17483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="test1()[pri:0, instance:AutomationTesting_1.auttomation_1.FirstTest@33065d67]" started-at="2023-07-04T10:57:19 BDT" name="test1" finished-at="2023-07-04T10:57:35 BDT" duration-ms="15601" status="PASS">
+        <test-method signature="testlocators()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-04T21:18:02 BDT" name="testlocators" finished-at="2023-07-04T21:18:16 BDT" duration-ms="14811" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test1()[pri:0, instance:AutomationTesting_1.auttomation_1.FirstTest@33065d67]" started-at="2023-07-04T10:57:35 BDT" name="test1" finished-at="2023-07-04T10:57:45 BDT" duration-ms="10518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.FirstTest@33065d67]" started-at="2023-07-04T10:57:45 BDT" name="close" finished-at="2023-07-04T10:57:46 BDT" duration-ms="221" status="PASS">
+        </test-method> <!-- testlocators -->
+        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-04T21:18:16 BDT" name="close" finished-at="2023-07-04T21:18:17 BDT" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- AutomationTesting_1.auttomation_1.FirstTest -->
+      </class> <!-- AutomationTesting_1.auttomation_1.LocatorExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
