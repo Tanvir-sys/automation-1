@@ -13,7 +13,8 @@ public class FirstTest  extends BaseDriver{
 		
 		
 		driver.get("https://github.com/Tanvir-sys/automation-1/tree/main");   // for execute hit the url
-		Thread.sleep(10000);
+		Thread.sleep(10000); // for 10 sec hold 
+		System.out.println(driver.getTitle());
 	}
 
 }
