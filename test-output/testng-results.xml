@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-06T16:52:07 BDT" name="Default suite" finished-at="2023-07-06T16:52:58 BDT" duration-ms="50691">
+  <suite started-at="2023-07-08T12:02:27 BDT" name="Default suite" finished-at="2023-07-08T12:03:27 BDT" duration-ms="59632">
     <groups>
     </groups>
-    <test started-at="2023-07-06T16:52:07 BDT" name="Default test" finished-at="2023-07-06T16:52:58 BDT" duration-ms="50691">
+    <test started-at="2023-07-08T12:02:27 BDT" name="Default test" finished-at="2023-07-08T12:03:27 BDT" duration-ms="59632">
       <class name="AutomationTesting_1.auttomation_1.LocatorExample">
-        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-06T16:51:39 BDT" name="start" finished-at="2023-07-06T16:52:07 BDT" duration-ms="28459" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-08T12:02:13 BDT" name="start" finished-at="2023-07-08T12:02:27 BDT" duration-ms="14255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="testlocators()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-06T16:52:07 BDT" name="testlocators" finished-at="2023-07-06T16:52:58 BDT" duration-ms="50664" status="PASS">
+        <test-method signature="testlocators()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-08T12:02:27 BDT" name="testlocators" finished-at="2023-07-08T12:03:27 BDT" duration-ms="59606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testlocators -->
-        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-06T16:52:58 BDT" name="close" finished-at="2023-07-06T16:52:58 BDT" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.LocatorExample@53fb3dab]" started-at="2023-07-08T12:03:27 BDT" name="close" finished-at="2023-07-08T12:03:27 BDT" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -24,13 +24,17 @@ public class LocatorExample extends BaseDriver {
 		s.click();
 		Thread.sleep(2000);
 		
-		WebElement l=driver.findElement(By.xpath("//*[@id=\"main_wrapper\"]/div/div/header/div[1]/div/div/div/ul/li[1]/a"));
+		WebElement l=driver.findElement(By.linkText("Bus"));
 		l.click();
 		Thread.sleep(10000);
-		WebElement  a=driver.findElement(By.xpath("//*[@id=\"email\"]"));
-		a.sendKeys("abs@lito.com");
-		a=driver.findElement(By.xpath("//*[@id=\"comment\"]"));
-		a.sendKeys("Hey This Is Tanvir from QA Team To check the system");
+		WebElement  a=driver.findElement(By.id("dest_from"));
+		a.sendKeys("Chittagong");
+		a=driver.findElement(By.id("dest_to"));
+		a.sendKeys("Dhaka");
+		
+		
+		
+		
 		Thread.sleep(20000);
 		
 		
