@@ -13,7 +13,7 @@ public class webElementexample  extends BaseDriver{
 		WebElement e = driver.findElement(By.id("firstName"));
 		
 		WebElement q= driver.findElement(By.xpath("//body/div[@id='app']/div[1]/div[1]/div[2]/div[2]/div[2]"));
-		System.out.println("Attribute Value :"  +q.getAttribute("pattern"));
+		
 		String formValue= q.getText();
 		
 			System.out.println(formValue);
@@ -34,6 +34,27 @@ public class webElementexample  extends BaseDriver{
 				
 				System.out.println("Email Id Not Locateable .");
 			}
+			
+			    WebElement radio = driver.findElement(By.xpath("//label[contains(text(),'Male')]"));
+				if(! radio.isSelected())
+				{
+					 radio.click(); 
+					 Thread.sleep(2000);
+					 
+				 WebElement r =driver.findElement(By.xpath(" //label[contains(text(),'Female')]"));
+						r. click();
+						 Thread.sleep(5000);
+				 WebElement r2 =driver.findElement(By.xpath("//label[contains(text(),'Other')]"));
+							r2. click();
+							 Thread.sleep(50000);
+						
+				}else 
+					
+				{
+					System.out.println(" radio button Default selected ");	
+				}
+				
+			
 	
 	}
 	
