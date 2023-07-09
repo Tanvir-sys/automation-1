@@ -26,6 +26,10 @@ public class webElementexample  extends BaseDriver{
 					e.clear();
 					e.sendKeys("Monjurul Hoq");
 				Thread.sleep(1000);
+				Thread.sleep(2000);
+				
+				WebElement t= driver.findElement(By.id("userNumber"));
+				t.sendKeys("0101010101010102222102");
 			if(e.isDisplayed()) {         //  for positive case 
 					e.clear();
 					e.sendKeys("Hello ");
@@ -54,6 +58,7 @@ public class webElementexample  extends BaseDriver{
 					System.out.println(" radio button Default selected ");	
 				}
 				
+			
 			
 	
 	}
