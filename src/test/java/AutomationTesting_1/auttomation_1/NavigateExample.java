@@ -17,6 +17,8 @@ public class NavigateExample extends BaseDriver{
 		Thread.sleep(3000);
 		driver.navigate().forward();
 		Thread.sleep(3000);
+		driver.navigate().refresh();
+		Thread.sleep(3000);
 		
 		
 	}
