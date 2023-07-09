@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-09T16:30:20 BDT" name="Default suite" finished-at="2023-07-09T16:31:39 BDT" duration-ms="78348">
+  <suite started-at="2023-07-09T22:29:30 BDT" name="Default suite" finished-at="2023-07-09T22:30:02 BDT" duration-ms="31342">
     <groups>
     </groups>
-    <test started-at="2023-07-09T16:30:20 BDT" name="Default test" finished-at="2023-07-09T16:31:39 BDT" duration-ms="78348">
-      <class name="AutomationTesting_1.auttomation_1.webElementexample">
-        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.webElementexample@53fb3dab]" started-at="2023-07-09T16:30:08 BDT" name="start" finished-at="2023-07-09T16:30:20 BDT" duration-ms="12160" status="PASS">
+    <test started-at="2023-07-09T22:29:30 BDT" name="Default test" finished-at="2023-07-09T22:30:02 BDT" duration-ms="31342">
+      <class name="AutomationTesting_1.auttomation_1.NavigateExample">
+        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.NavigateExample@53fb3dab]" started-at="2023-07-09T22:29:22 BDT" name="start" finished-at="2023-07-09T22:29:30 BDT" duration-ms="8496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="webElementsTest()[pri:0, instance:AutomationTesting_1.auttomation_1.webElementexample@53fb3dab]" started-at="2023-07-09T16:30:20 BDT" name="webElementsTest" finished-at="2023-07-09T16:31:39 BDT" duration-ms="78323" status="PASS">
+        <test-method signature="navigate()[pri:0, instance:AutomationTesting_1.auttomation_1.NavigateExample@53fb3dab]" started-at="2023-07-09T22:29:30 BDT" name="navigate" finished-at="2023-07-09T22:30:02 BDT" duration-ms="31284" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- webElementsTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.webElementexample@53fb3dab]" started-at="2023-07-09T16:31:39 BDT" name="close" finished-at="2023-07-09T16:31:39 BDT" duration-ms="296" status="PASS">
+        </test-method> <!-- navigate -->
+        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.NavigateExample@53fb3dab]" started-at="2023-07-09T22:30:02 BDT" name="close" finished-at="2023-07-09T22:30:02 BDT" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- AutomationTesting_1.auttomation_1.webElementexample -->
+      </class> <!-- AutomationTesting_1.auttomation_1.NavigateExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

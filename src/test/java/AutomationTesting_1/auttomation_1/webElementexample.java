@@ -29,7 +29,10 @@ public class webElementexample  extends BaseDriver{
 				Thread.sleep(2000);
 				
 				WebElement t= driver.findElement(By.id("userNumber"));
-				t.sendKeys("0101010101010102222102");
+				
+				t.sendKeys("xxxxxxxxx");
+				
+				
 			if(e.isDisplayed()) {         //  for positive case 
 					e.clear();
 					e.sendKeys("Hello ");
