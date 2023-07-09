@@ -11,15 +11,20 @@ public class webElementexample  extends BaseDriver{
 		driver.get(Url);
 		
 		WebElement e = driver.findElement(By.id("firstName"));
+		System.out.println("Attribute Value :"  +e.getAttribute("pattern"));
+		String formValue= e.getText();
+		System.out.println(formValue);
 		
 		e.sendKeys("Tanvir Hossain");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	    e.clear();
 	    e.sendKeys("ABM aftabuzamman");
-		Thread.sleep(5000);
+		Thread.sleep(1000);
 		e.clear();
 		e.sendKeys("abc");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
+		
+	
 		
 	}
 	
