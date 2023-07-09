@@ -31,10 +31,7 @@ public class LocatorExample extends BaseDriver {
 		a.sendKeys("Chittagong");
 		a=driver.findElement(By.id("dest_to"));
 		a.sendKeys("Dhaka");
-		
-		
-		
-		
+
 		Thread.sleep(20000);
 		
 		
