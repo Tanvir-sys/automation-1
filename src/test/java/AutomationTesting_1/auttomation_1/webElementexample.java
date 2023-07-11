@@ -54,6 +54,7 @@ public class webElementexample  extends BaseDriver{
 				 WebElement r2 =driver.findElement(By.xpath("//label[contains(text(),'Other')]"));
 							r2. click();
 							 Thread.sleep(50000);
+							 System.out.println("......................");
 						
 				}else 
 					

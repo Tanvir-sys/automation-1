@@ -40,5 +40,10 @@
     <artifactId>webdrivermanager</artifactId>
     <version>5.3.2</version>
     </dependency>
+    <dependency>
+    	<groupId>AutomationTesting</groupId>
+    	<artifactId>JavaBasics</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>
