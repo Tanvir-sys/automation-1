@@ -1,5 +1,6 @@
 package AutomationTesting_1.auttomation_1;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -13,6 +14,9 @@ public class Alert1 extends BaseDriver{
 		driver.get(Url);
 		WebElement w = driver.findElement(By.xpath(" //button[@id='alertButton']"));
 		w.click();
+		Thread.sleep(3000);
+		Alert alert= driver.switchTo().alert();
+		alert.accept();
 		Thread.sleep(3000);
 		
 			

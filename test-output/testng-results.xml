@@ -2,76 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-10T10:02:53 BDT" name="Default suite" finished-at="2023-07-10T10:03:07 BDT" duration-ms="14303">
+  <suite started-at="2023-07-11T15:12:53 BDT" name="Default suite" finished-at="2023-07-11T15:13:14 BDT" duration-ms="21268">
     <groups>
     </groups>
-    <test started-at="2023-07-10T10:02:53 BDT" name="Default test" finished-at="2023-07-10T10:03:07 BDT" duration-ms="14303">
-      <class name="AutomationTesting_1.auttomation_1.Alert">
-        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert@53fb3dab]" started-at="2023-07-10T10:02:43 BDT" name="start" finished-at="2023-07-10T10:02:53 BDT" duration-ms="10089" status="PASS">
+    <test started-at="2023-07-11T15:12:53 BDT" name="Default test" finished-at="2023-07-11T15:13:14 BDT" duration-ms="21268">
+      <class name="AutomationTesting_1.auttomation_1.Alert1">
+        <test-method is-config="true" signature="start()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert1@53fb3dab]" started-at="2023-07-11T15:12:47 BDT" name="start" finished-at="2023-07-11T15:12:53 BDT" duration-ms="6202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="AlertTest()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert@53fb3dab]" started-at="2023-07-10T10:02:53 BDT" name="AlertTest" finished-at="2023-07-10T10:03:07 BDT" duration-ms="14256" status="PASS">
+        <test-method signature="AlertTest()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert1@53fb3dab]" started-at="2023-07-11T15:12:53 BDT" name="AlertTest" finished-at="2023-07-11T15:13:14 BDT" duration-ms="21237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AlertTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert@53fb3dab]" started-at="2023-07-10T10:03:07 BDT" name="close" finished-at="2023-07-10T10:03:07 BDT" duration-ms="20" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : You clicked a button}
-  (Session info: chrome=114.0.5735.199): You clicked a button
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d39d4afa6ff845f659cd074b5dca292c, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\TANVIR~1.HOS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59439/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d39d4afa6ff845f659cd074b5dca292c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You clicked a button}
-  (Session info: chrome=114.0.5735.199): You clicked a button
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d39d4afa6ff845f659cd074b5dca292c, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\TANVIR~1.HOS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59439}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59439/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d39d4afa6ff845f659cd074b5dca292c
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:130)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
-at AutomationTesting_1.auttomation_1.BaseDriver.close(BaseDriver.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:410)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+        <test-method is-config="true" signature="close()[pri:0, instance:AutomationTesting_1.auttomation_1.Alert1@53fb3dab]" started-at="2023-07-11T15:13:14 BDT" name="close" finished-at="2023-07-11T15:13:14 BDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- AutomationTesting_1.auttomation_1.Alert -->
+      </class> <!-- AutomationTesting_1.auttomation_1.Alert1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
