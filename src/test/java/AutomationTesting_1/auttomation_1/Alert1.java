@@ -27,7 +27,7 @@ public class Alert1 extends BaseDriver{
 		WebElement s = driver.findElement(By.id("confirmButton"));
 		s.click();
 		
-		alert.accept();	
+		alert.dismiss();
 		Thread.sleep(3000);
 		
 		WebElement e =driver.findElement(By.id("confirmResult"));
