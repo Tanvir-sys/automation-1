@@ -18,6 +18,8 @@ public class Alert1 extends BaseDriver{
 		Alert alert= driver.switchTo().alert();
 		alert.accept();
 		Thread.sleep(3000);
+		System.out.println(".........................");
+		
 		
 			
 		
