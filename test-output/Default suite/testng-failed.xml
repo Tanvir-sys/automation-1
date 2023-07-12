@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AutomationTesting_1.auttomation_1.Alert1">
+      <class name="AutomationTesting_1.auttomation_1.Hover">
         <methods>
+          <include name="MouseHover"/>
           <include name="close"/>
           <include name="start"/>
-          <include name="AlertTest"/>
         </methods>
-      </class> <!-- AutomationTesting_1.auttomation_1.Alert1 -->
+      </class> <!-- AutomationTesting_1.auttomation_1.Hover -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
