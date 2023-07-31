@@ -7,11 +7,12 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class Hover extends BaseDriver {
+	String url = "www.daraz.com.bd";
 	@Test
 	public void MouseHover() 
 	{ 
 		driver.manage().window().maximize();
-		String url = "www.daraz.com.bd";
+		
 		driver.get(url);
 		
 		Actions Ac=new Actions (driver);
